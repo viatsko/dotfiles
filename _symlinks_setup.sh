@@ -6,6 +6,7 @@ cd $DIR
 declare -a files=(
 	.dircolors
         .oh-my-zsh
+	.zsh
         .zshrc
 )
 
