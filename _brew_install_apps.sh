@@ -22,7 +22,9 @@ brew install --cask spotify \
 	discord \
 	flux \
 	vlc \
-	jetbrains-toolbox
+	jetbrains-toolbox \
+	google-chrome \
+	visual-studio-code
 
 # OpenJDK post-install
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk

@@ -11,5 +11,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 . _dock_cleanup.sh
 . _brew_update_or_install.sh
+. _brew_install_apps.sh
 . _osx.sh
 
