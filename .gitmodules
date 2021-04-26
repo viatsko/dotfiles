@@ -7,3 +7,18 @@
 [submodule ".zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions"]
 	path = .zsh/oh-my-zsh-custom/plugins/zsh-autosuggestions
 	url = git@github.com:zsh-users/zsh-autosuggestions.git
+[submodule ".vim/plugged/ctrlp.vim"]
+	path = .vim/plugged/ctrlp.vim
+	url = git@github.com:kien/ctrlp.vim.git
+[submodule ".vim/plugged/onedark.vim"]
+	path = .vim/plugged/onedark.vim
+	url = git@github.com:joshdick/onedark.vim.git
+[submodule ".vim/plugged/nerdtree"]
+	path = .vim/plugged/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule ".vim/plugged/vim-airline"]
+	path = .vim/plugged/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule ".vim/plugged/vim-polyglot"]
+	path = .vim/plugged/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
