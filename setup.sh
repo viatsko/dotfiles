@@ -14,4 +14,6 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 . _brew_install_apps.sh
 . _git_submodules.sh
 . _osx.sh
+. _symlinks_setup.sh
+. _zsh_fix.sh
 
