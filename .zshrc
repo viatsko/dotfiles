@@ -19,8 +19,10 @@ source $ZSH/oh-my-zsh.sh
 command -v gdircolors >/dev/null 2>&1 || alias gdircolors="dircolors"
 eval "$(gdircolors -b ~/.dircolors)"
 
+source $HOME/.zsh/aliases.zsh
 source $HOME/.zsh/exports.zsh
 source $HOME/.zsh/keybindings.zsh
+source $HOME/.zsh/path.zsh
 source $HOME/.zsh/prompt.zsh
 
 export NVM_DIR="$HOME/.nvm"
