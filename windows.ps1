@@ -8,6 +8,23 @@ if (!(Verify-Elevated)) {
    exit
 }
 
+function Convert-ConsoleColor {
+    [CmdletBinding()]
+    param (
+        [Parameter(Mandatory=$true, ValueFromPipeline=$true)]
+        [string]$rgb
+    )
+
+    if ($rgb -notmatch '^#[\da-f]{6}$') {
+        write-Error "Invalid color '$rgb' should be in RGB hex format, e.g. #000000"
+        Return
+    }
+    $num = [Convert]::ToInt32($rgb.substring(1,6), 16)
+    $bytes = [BitConverter]::GetBytes($num)
+    [Array]::Reverse($bytes, 0, 3)
+    return [BitConverter]::ToInt32($bytes, 0)
+}
+
 ###############################################################################
 ### Security and Identity                                                     #
 ###############################################################################
