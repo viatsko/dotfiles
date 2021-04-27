@@ -4,10 +4,11 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cd $DIR
 
 declare -a files=(
-	.dircolors
+        .dircolors
+        .editorconfig
         .oh-my-zsh
-	.vim
-	.zsh
+        .vim
+        .zsh
         .zshrc
 )
 
