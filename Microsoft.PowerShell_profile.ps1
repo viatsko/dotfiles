@@ -6,6 +6,7 @@ Set-PSReadLineKeyHandler -Chord Alt+LeftArrow -Function BackwardWord
 Set-PSReadLineKeyHandler -Chord Alt+RightArrow -Function NextWord
 Set-PSReadlineOption -BellStyle None
 
+# (c) https://www.norlunn.net/2019/10/07/powershell-customize-the-prompt/
 function global:prompt {
     $Success = $?
  
