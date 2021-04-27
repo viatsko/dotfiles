@@ -1,0 +1,5 @@
+{
+    "editor.renderWhitespace": "all",
+    "files.eol": "\n",
+    "files.insertFinalNewline": true
+}
