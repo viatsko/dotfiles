@@ -6,6 +6,10 @@ cd $DIR
 declare -a files=(
   .dircolors
   .editorconfig
+  .gitconfig
+  .gitignore
+  .hushlogin
+  .inputrc
   .oh-my-zsh
   .vim
   .vimrc

@@ -1,0 +1,39 @@
+[alias]
+  df = diff --color --color-words --abbrev
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --
+  git = !exec git
+
+[core]
+  editor = vi
+  excludesfile = ~/.gitignore
+  attributesfile = ~/.gitattributes
+  autocrlf = input
+
+[user]
+  email = viatsko@viatsko.me
+  name = Valerii Iatsko
+
+[url "git@github.com:"]
+    insteadOf = "https://github.com/"
+
+# push easily. http://stackoverflow.com/a/23918418/89484
+[push]
+  default = current
+  followTags = true
+
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge --skip
+  required = true
+	process = git-lfs filter-process
+
+[fetch]
+  prune = true
+[stash]
+  showPatch = true
+[log]
+  date = relative
+[color]
+	ui = true
+[lfs]
+	fetchexclude = *
