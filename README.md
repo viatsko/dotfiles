@@ -3,6 +3,12 @@
 * I maintain this repo as *my* dotfiles, but I'm keenly aware people are using it for theirs.
 * You're quite welcome to make suggestions, however I may decline if it's not of personal value to me.
 
+## Initializing Plugins in VIM
+
+```
+:PlugInstall
+```
+
 ## WSL
 
 * .zsh might break if dotfiles were fetched to Windows file system, use Linux internal one to store them
