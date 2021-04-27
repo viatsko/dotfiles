@@ -9,9 +9,11 @@
 :PlugInstall
 ```
 
-## WSL
+## WSL2
 
-* .zsh might break if dotfiles were fetched to Windows file system, use Linux internal one to store them
+I'm using Kali Linux.
+
+* Guide: [Win-KeX provides a Kali Desktop Experience for Windows Subsystem for Linux (WSL 2)](https://www.kali.org/docs/wsl/win-kex/)
 
 ## Additional software
 
