@@ -4,6 +4,7 @@ Set-PSReadLineKeyHandler -Chord Ctrl+a -Function BeginningOfLine
 Set-PSReadLineKeyHandler -Chord Ctrl+e -Function EndOfLine
 Set-PSReadLineKeyHandler -Chord Alt+LeftArrow -Function BackwardWord
 Set-PSReadLineKeyHandler -Chord Alt+RightArrow -Function NextWord
+Set-PSReadLineKeyHandler -Chord Shift+Spacebar -Function SelfInsert # fixes annoying shift+space bug when writing git commit messages
 Set-PSReadlineOption -BellStyle None
 
 # (c) https://www.norlunn.net/2019/10/07/powershell-customize-the-prompt/
