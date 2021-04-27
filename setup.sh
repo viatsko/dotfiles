@@ -13,11 +13,18 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 chmod +x *.sh
 
 # Run step-by-step scripts to set the machine up
-. _dock_cleanup.sh
-. _brew_update_or_install.sh
-. _brew_install_apps.sh
+case `uname` in
+    Darwin)
+        . _dock_cleanup.sh
+        . _brew_update_or_install.sh
+        . _brew_install_apps.sh
+        . _osx.sh
+    ;;
+    Linux)
+    ;;
+esac
+
 . _git_submodules.sh
-. _osx.sh
 . _symlinks_setup.sh
 . _zsh_fix.sh
 
