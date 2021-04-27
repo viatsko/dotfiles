@@ -1,5 +1,7 @@
 {
     "editor.renderWhitespace": "all",
     "files.eol": "\n",
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
+    "editor.formatOnSave": true,
+    "shellformat.useEditorConfig": true
 }
