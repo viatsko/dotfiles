@@ -8,6 +8,7 @@ declare -a files=(
   .editorconfig
   .oh-my-zsh
   .vim
+  .vimrc
   .zsh
   .zshrc
 )
