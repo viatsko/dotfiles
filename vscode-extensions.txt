@@ -1,0 +1,14 @@
+aaron-bond.better-comments
+cev.overnight
+CoenraadS.bracket-pair-colorizer-2
+Dart-Code.dart-code
+eamodio.gitlens
+esbenp.prettier-vscode
+jeroen-meijer.pubspec-assist
+kisstkondoros.vscode-gutter-preview
+ms-vscode-remote.remote-ssh
+ms-vscode-remote.remote-ssh-edit
+ms-vscode.powershell
+naumovs.color-highlight
+PKief.material-icon-theme
+usernamehw.errorlens
