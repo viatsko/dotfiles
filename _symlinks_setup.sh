@@ -11,6 +11,7 @@ declare -a files=(
   .hushlogin
   .inputrc
   .oh-my-zsh
+  .terminfo
   .vim
   .vimrc
   .zsh

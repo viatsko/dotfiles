@@ -1,5 +1,6 @@
 # Proper history etc
 Import-Module PSReadLine
+Import-Module Microsoft.PowerShell.Utility
 
 # Produce UTF-8 by default
 # https://news.ycombinator.com/item?id=12991690
