@@ -2,3 +2,4 @@
 . windows.ps1
 . _powershell_update.ps1
 . _powershell_profile_copy.ps1
+. _powershell_install_modules.ps1

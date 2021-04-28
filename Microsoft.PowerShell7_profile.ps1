@@ -1,6 +1,7 @@
 # Proper history etc
 Import-Module PSReadLine
 Import-Module Microsoft.PowerShell.Utility
+Import-Module WslInterop
 
 # Produce UTF-8 by default
 # https://news.ycombinator.com/item?id=12991690
@@ -155,3 +156,5 @@ function Get-ChildItemColor {
       $Host.UI.RawUI.ForegroundColor = $fore
     }
 }
+
+Import-WslCommand "apt", "awk", "cp", "emacs", "grep", "head", "less", "ls", "man", "rm", "sed", "seq", "ssh", "sudo", "tail", "vim"
