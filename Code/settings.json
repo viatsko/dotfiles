@@ -5,5 +5,6 @@
     "dart.openDevTools": "always",
     "editor.fontSize": 13,
     "editor.tabSize": 2,
-    "editor.renderWhitespace": "all"
+    "editor.renderWhitespace": "all",
+    "editor.formatOnSave": true
 }
