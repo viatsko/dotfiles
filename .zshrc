@@ -37,3 +37,4 @@ export TSC_WATCHFILE="UseFsEventsWithFallbackDynamicPolling"
 export TOOLCHAINS=swift
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
