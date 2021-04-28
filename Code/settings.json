@@ -1,3 +1,9 @@
 {
-    "workbench.colorTheme": "Overnight Slumber Italics"
+    "workbench.colorTheme": "Overnight Slumber Italics",
+    "workbench.iconTheme": "material-icon-theme",
+    "dart.hotReloadProgress": "statusBar",
+    "dart.openDevTools": "always",
+    "editor.fontSize": 13,
+    "editor.tabSize": 2,
+    "editor.renderWhitespace": "all"
 }
