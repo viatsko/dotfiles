@@ -38,3 +38,4 @@ export TOOLCHAINS=swift
 
 export ANDROID_HOME=$HOME/Library/Android/sdk
 export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export PATH="/opt/homebrew/opt/coreutils/libexec/gnubin:$PATH"
