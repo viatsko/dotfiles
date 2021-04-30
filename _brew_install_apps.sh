@@ -25,6 +25,7 @@ brew install --cask spotify \
   discord \
   flux \
   vlc \
+  soundsource \
   jetbrains-toolbox \
   google-chrome \
   visual-studio-code
