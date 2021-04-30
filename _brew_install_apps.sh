@@ -21,12 +21,14 @@ brew install --cask homebrew/cask-drivers/logitech-g-hub
 
 brew install --cask spotify \
   nova \
+  karabiner-elements \
   telegram \
   iterm2 \
   dropbox \
   discord \
   vlc \
   soundsource \
+  scroll-reverser \
   jetbrains-toolbox \
   google-chrome \
   visual-studio-code
