@@ -23,7 +23,6 @@ brew install --cask spotify \
   iterm2 \
   dropbox \
   discord \
-  flux \
   vlc \
   soundsource \
   jetbrains-toolbox \
