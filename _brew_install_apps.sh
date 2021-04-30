@@ -3,30 +3,31 @@
 brew tap dart-lang/dart
 
 brew install dart \
-fzf \
-coreutils \
-moreutils \
-findutils \
-gnu-sed \
-nvm \
-pstree \
-openjdk \
-the_silver_searcher \
-ffmpeg \
-terminal-notifier
+  fzf \
+  coreutils \
+  moreutils \
+  findutils \
+  gnu-sed \
+  nvm \
+  pstree \
+  openjdk \
+  the_silver_searcher \
+  ffmpeg \
+  terminal-notifier
 
 sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 brew install --cask spotify \
-telegram \
-iterm2 \
-dropbox \
-discord \
-flux \
-vlc \
-jetbrains-toolbox \
-google-chrome \
-visual-studio-code
+  nova \
+  telegram \
+  iterm2 \
+  dropbox \
+  discord \
+  flux \
+  vlc \
+  jetbrains-toolbox \
+  google-chrome \
+  visual-studio-code
 
 # OpenJDK post-install
 sudo ln -sfn /usr/local/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
