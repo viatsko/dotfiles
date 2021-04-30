@@ -3,6 +3,7 @@
 DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 cd $DIR
 
+mkdir -p $HOME/Library/Application\ Support/Code/User/
 rm -f $HOME/Library/Application\ Support/Code/User/settings.json
 ln -s $DIR/Code/settings.json $HOME/Library/Application\ Support/Code/User/settings.json
 

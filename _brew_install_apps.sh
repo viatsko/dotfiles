@@ -12,8 +12,10 @@ nvm \
 pstree \
 openjdk \
 the_silver_searcher \
-ffmpeg --with-libvpx \
+ffmpeg \
 terminal-notifier
+
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 brew install --cask spotify \
 telegram \
