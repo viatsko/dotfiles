@@ -28,6 +28,7 @@ brew install --cask spotify \
   discord \
   vlc \
   soundsource \
+  tor-browser \
   scroll-reverser \
   jetbrains-toolbox \
   google-chrome \
