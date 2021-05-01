@@ -23,6 +23,7 @@ brew install --cask spotify \
   nova \
   karabiner-elements \
   telegram \
+  figma \
   iterm2 \
   dropbox \
   discord \
