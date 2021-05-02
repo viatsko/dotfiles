@@ -17,7 +17,8 @@ brew install dart \
 
 sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
-brew install --cask homebrew/cask-drivers/logitech-g-hub
+# buggy on M1
+#brew install --cask homebrew/cask-drivers/logitech-g-hub
 
 brew install --cask spotify \
   nova \
