@@ -29,6 +29,7 @@ brew install --cask spotify \
   discord \
   vlc \
   soundsource \
+  homebrew/cask-versions/firefox-developer-edition \
   tor-browser \
   scroll-reverser \
   jetbrains-toolbox \
