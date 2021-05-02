@@ -27,6 +27,7 @@ brew install --cask spotify \
   iterm2 \
   dropbox \
   discord \
+  istat-menus \
   vlc \
   soundsource \
   homebrew/cask-versions/firefox-developer-edition \
